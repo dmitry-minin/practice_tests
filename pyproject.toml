@@ -1,0 +1,19 @@
+[tool.poetry]
+name = "16-1-exception"
+version = "0.1.0"
+description = ""
+authors = ["Dmitry Minin <d.n.minin@gmail.com>"]
+readme = "README.md"
+packages = [{include = "16"}]
+
+[tool.poetry.dependencies]
+python = "^3.12"
+pytest = "^8.3.2"
+
+
+[tool.poetry.group.dev.dependencies]
+pytest = "^8.3.2"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
